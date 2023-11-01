@@ -6,17 +6,19 @@ layout: page
 <div class="row">
   <div class="col-md-8">
 
-    {% include index/description.html %}
-    {% include index/carousel.html title="Sample Items" height="300" %}
+
+      {% include feature/audio.html object_id="test003" width="50" caption "this is a test" %}
+      {% include index/description.html %}
+
   
   </div>
   <div class="col-md-4">  
 
-    {% include index/time.html %}
+    
 
     {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
 
-    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
+ 
 
     {% include index/objects.html %}
 
